@@ -158,7 +158,7 @@ build out any helper methods if needed.
 
 - 
   ```python
-  def access_current_orders(new_order=None)
+  def access_current_orders()
   ```
   - Adds `new_order` to `Coffee`'s orders
   - Returns a list of all orders for that coffee
@@ -166,7 +166,7 @@ build out any helper methods if needed.
   - _Will be called from `Order.__init__`_
 - 
   ```python
-  def access_relevant_customers(new_customer=None)
+  def access_relevant_customers()
   ```
   - Adds new customers to coffee
   - Returns a list of all **unique** customers who have ordered a particular coffee (i.e. the list will not contain the same customer more than once).
@@ -177,7 +177,7 @@ build out any helper methods if needed.
 
 - 
   ```python
-  def access_current_orders(new_order=None)
+  def access_current_orders()
   ```
   - Adds new orders to customer
   - Returns a list of all orders a customer has ordered
@@ -185,7 +185,7 @@ build out any helper methods if needed.
   - _Will be called from `Order.__init__`_
 - 
   ```python
-  def access_ordered_coffees(new_coffee=None)
+  def access_ordered_coffees()
   ```
   - Adds new coffees to customer
   - Returns a list of all **unique** coffees a customer has ordered (i.e. the list will not contain the same coffee more than once).
